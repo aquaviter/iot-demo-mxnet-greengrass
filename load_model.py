@@ -1,5 +1,4 @@
 
-ad_model.py	
 import mxnet as mx
 import numpy as np
 import picamera
@@ -109,4 +108,3 @@ if __name__ == "__main__":
         print mod.predict_from_cam()
     else:
         print mod.predict_from_file(args.img)
-
